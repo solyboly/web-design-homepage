@@ -1,0 +1,33 @@
+body {
+    background-color:bisque;
+    font-size:25px;
+}
+
+p {
+    background-color:aquamarine;
+    color:rgba(91, 137, 99, 0.5);
+
+    /* the border shorthand property expects 3 calues for the border-width, border-style, and border-color */
+    border:10px dashed olive;
+
+    /* padding is internal spacing for our elements */
+    padding:50px;
+
+    /* margin is external spacing around our elements */
+    /* this is a comment for css*/
+    margin:50px;
+
+    width:200px;
+    height:200px;
+    overflow:auto;
+}
+
+.banner {
+    background-color:lightcoral;
+    border:5px dotted darkgreen;
+    text-align:center;
+}
+
+img {
+    max-width:100%;
+}

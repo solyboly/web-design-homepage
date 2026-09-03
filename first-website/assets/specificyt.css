@@ -1,0 +1,39 @@
+body {
+    background-color:lightgoldenrodyellow;
+}
+
+/* external styles are the least specific */
+header {
+    background:lightblue;
+    margin:20px;
+    padding:20px;
+}
+
+/* default tags are the least specific */
+main {
+    background: yellow;
+    margin:20px;
+    padding:20px;
+}
+
+/* classes are more specific than default tags, but less specific than ids */
+.class {
+    background:lightgreen;
+}
+
+/* ids ar ethe most specific */
+#id {
+    background:lightblue
+}
+
+/* rules higher on the style sheet are less specific than rules lower */
+footer {
+    background:lightpink;
+    margin:20px;
+    padding:20px;
+}
+
+/* rrules lower on the stylesheet are more specific than rules higher up */
+footer {
+    background: lightseagreen
+}

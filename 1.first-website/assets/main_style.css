@@ -1,5 +1,5 @@
 body {
-    background-color:bisque;
+    background-color:lightgreen;
     font-size:25px;
 }
 
@@ -30,4 +30,5 @@ p {
 
 img {
     max-width:100%;
+    margin:50px;
 }

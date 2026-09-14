@@ -1,0 +1,33 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%
+}
+
+body {
+    background-color: bisque;
+    font-size: 30px;
+}
+
+ol {
+    font-size: 20px;
+}
+.banner {
+    background-color:orangered;
+    padding:50px;
+    margin: 50px;
+    color:rgb(255, 213, 0);
+    text-align:center;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+
+p {
+    background-color:lightsalmon;
+    text-align:center;
+    height:200px;
+    padding:50px;
+    margin:50px;
+    overflow:auto;
+}

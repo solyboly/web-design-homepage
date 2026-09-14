@@ -3,12 +3,15 @@
 }
 
 img {
-    max-width:100%
+    max-width: 100%;
+    margin: 20px;
 }
 
 body {
     background-color: bisque;
     font-size: 30px;
+    font-family:'Comic Sans MS', cursive;
+    
 }
 
 ol {
@@ -20,7 +23,8 @@ ol {
     margin: 50px;
     color:rgb(255, 213, 0);
     text-align:center;
-    font-family:"Lucida Console", "Courier New", monospace;
+    font-family:'Comic Sans MS', cursive;
+    border: 25px dotted rgb(99, 4, 4);
 }
 
 p {
@@ -28,6 +32,8 @@ p {
     text-align:center;
     height:200px;
     padding:50px;
-    margin:50px;
+    margin:40px;
     overflow:auto;
+    font-family:'Comic Sans MS', cursive;
+    border: 10px outset rgb(81, 11, 11);
 }

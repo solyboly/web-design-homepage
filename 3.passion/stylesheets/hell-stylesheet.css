@@ -1,0 +1,47 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100px;
+    height:auto;
+}
+
+a {
+    display:block;
+    height:120px;
+    width:100px;   
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display:block;
+  width: 100px;
+  height: auto;
+}
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100px;
+  opacity: 0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.door-images img {
+    max-width:100px;
+    max-height:100px;
+}
+body {
+    background-color:black;
+    color: white;
+}

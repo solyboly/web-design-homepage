@@ -4,7 +4,6 @@
 
 img {
     max-width: 100%;
-    margin: 20px;
 }
 
 body {
@@ -21,10 +20,45 @@ ol {
     background-color:orangered;
     padding:50px;
     margin: 50px;
+    margin-bottom:10px;
     color:rgb(255, 213, 0);
     text-align:center;
-    font-family:'Comic Sans MS', cursive;
+    font-family: "Rock 3D", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
     border: 25px dotted rgb(99, 4, 4);
+}
+
+.home-link {
+    display:block;
+    height:100px;
+    max-width:fit-content;
+}
+
+.container {
+    position:relative;
+    width:100%;
+}
+
+.image {
+  display:block;
+  width: 200px;
+  height: auto;
+}
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:200px;
+  opacity: 0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .column {
@@ -32,6 +66,7 @@ ol {
   width: 20%;
   padding: 10px;
 }
+
 
 .row::after {
   content: "";
@@ -64,4 +99,20 @@ p {
     width:500px;
     font-family:'Comic Sans MS', cursive;
     border: 10px outset rgb(81, 11, 11);
+}
+
+a:link {
+  color:black;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    color:orangered;
+}
+
+a:active {
+    color: orange;
 }

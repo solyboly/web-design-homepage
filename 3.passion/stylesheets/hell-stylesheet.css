@@ -42,6 +42,9 @@ a {
     max-height:100px;
 }
 body {
-    background-color:black;
     color: white;
+    background-image: url(../assets/hell.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

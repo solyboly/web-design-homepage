@@ -40,4 +40,5 @@ a {
 
 .food-images img {
     max-width:100%;
+    padding:10px;
 }

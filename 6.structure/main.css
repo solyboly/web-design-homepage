@@ -15,7 +15,7 @@ body {
 
 .keyboard {
     background:gray;
-    width:2000px;
+    width:2200px;
     height:540px;
     position:relative;
     top:30px;
@@ -56,6 +56,30 @@ body {
     left:840px;
 }
 
+.cc {
+    left: 980px;
+}
+
+.dd {
+    left: 1120px;
+}
+
+.ee {
+    left:1260px;
+}
+
+.ff {
+    left:1400px;
+}
+
+.aa {
+    left:1680px;
+}
+
+.hhh {
+    left: 1960px;
+}
+
 .h1:hover {
     background:lightgreen;
 }
@@ -87,6 +111,18 @@ body {
 
 .l {
     left:790px;
+}
+
+.hh {
+    left:1070px;
+}
+
+.ii {
+    left:1210px;
+}
+
+.ll {
+    left:1770px;
 }
 
 .h2:hover {

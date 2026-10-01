@@ -1,0 +1,94 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%
+}
+
+body {
+    background-image: url(concert\ hall.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.keyboard {
+    background:gray;
+    width:2000px;
+    height:540px;
+    position:relative;
+    top:30px;
+    left:20px;
+    border-radius:10px;
+}
+
+.white-key {
+    background:white;
+    width:120px;
+    height:450px;
+    position:absolute;
+    margin:20px;
+    border-radius:10px;
+    top:30px;
+}
+
+.d {
+    left:140px;
+}
+
+.e {
+    left:280px;
+}
+
+.f {
+    left:420px;
+}
+
+.g {
+    left:560px;
+}
+
+.a {
+    left:700px;
+}
+.b {
+    left:840px;
+}
+
+.h1:hover {
+    background:lightgreen;
+}
+
+.black-key {
+    background:black;
+    width:80px;
+    height:275px;
+    position:absolute;
+    margin:20px;
+    border-radius:10px;
+}
+
+.h {
+    left:90px;
+}
+
+.i {
+    left:230px;
+}
+
+.j {
+   left:510px;
+}
+
+.k {
+    left:650px;
+}
+
+.l {
+    left:790px;
+}
+
+.h2:hover {
+    background:blue;
+}

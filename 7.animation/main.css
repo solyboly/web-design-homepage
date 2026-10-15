@@ -6,8 +6,117 @@ img {
     max-width:100%
 }
 
+body {
+    margin:0;
+}
+
 .box {
     background-color:lightblue;
     width:100px;
     height:100px;
+    position:relative;
+
+    animation-name: test;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    /* animation-iteration-count: 2; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode:both;
+
+    animation: test 5s 2s infinite ease-in-out alternate both;
+}
+
+@keyframes test {
+    0% {
+        background-color:orange;
+        top:0;
+    }
+    50% {
+        background-color:yellow;
+    }
+    100% {
+        background-color:red;
+        top:200px;
+    }
+}
+
+.container {
+    background:lightsteelblue;
+    height:100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.circle {
+    background:lightgoldenrodyellow;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: pulse 1.5s infinite alternate;
+
+}
+
+@keyframes pulse {
+0% {
+background:lightgoldenrodyellow;
+scale: 1;
+}
+
+100% {
+background:orangered;
+scale: 1.4;
+}
+}
+
+.square {
+    background:lightgoldenrodyellow;
+    width:100px;
+    height:100px;
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+0% {
+rotate:0;
+}
+
+100% {
+rotate: 360deg;
+}
+}
+
+.mover {
+    background:lightgoldenrodyellow;
+    width:100px;
+    height:40px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    animation: 
+        move 5s infinite linear, 
+        grow 5s infinite alternate;
+}
+
+@keyframes move {
+0% {
+left:-100px;
+}
+
+100% {
+left:100%;
+}
+}
+
+@keyframes grow {
+0% {
+scale:1;
+} 
+
+100% {
+scale:2;
+}
 }

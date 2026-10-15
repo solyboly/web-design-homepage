@@ -1,0 +1,126 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%
+}
+
+body {
+    margin:0;
+    background: black;
+    animation:background 20s 3s infinite linear alternate;
+}
+
+@keyframes background {
+    0% {
+        background:black;
+
+    }
+
+    100%{
+        background:rgb(77, 125, 228);
+    }
+}
+
+.container {
+    position:relative;
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-end;
+    position:relative;
+    overflow:hidden
+}
+
+.circle1 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 0.5s 1s infinite linear alternate;
+}
+
+.circle2 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 0.6s 1s infinite linear alternate;
+}
+
+.circle3 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 0.7s 1s infinite linear alternate;
+}
+
+.circle4 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 0.8s 1s infinite linear alternate;
+}
+
+.circle5 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 0.9s 1s infinite linear alternate;
+}
+
+.circle6 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 1s 1s infinite linear alternate;
+}
+
+.circle7 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 1.1s 1s infinite linear alternate;
+}
+
+.circle8 {
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    animation: circle1 1.2s 1s infinite linear alternate;
+}
+
+@keyframes circle1 {
+    0% {
+        transform: translateY(0);
+        background:lightseagreen;
+    }
+
+    15% {
+        background:indigo;
+    }
+    25% {
+        transform: translateY(-300px);
+    }
+   50% {
+        transform: translateY(-450px);
+   }
+   75% {
+        transform: translateY(-525px);
+   }
+    85% {
+    background:indigo;
+   }
+
+   100% {
+        transform: translateY(-600px);
+        background:lightgreen;
+   }
+}

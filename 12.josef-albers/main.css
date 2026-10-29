@@ -8,6 +8,48 @@ img {
 body {
     margin:0;
     background:white;
+    position:relative;
+}
+
+.rectangle1 {
+    background:rgb(174, 18, 60);
+    width:250px;
+    height:50px;
+    left:40vw;
+    top:40vh;
+    position:absolute;
+
+    animation: rect1 2s ease-in;
+}
+
+@keyframes rect1 {
+    0% {
+        top:-50px;
+        animation:ease-in;
+    }
+    65% {
+        top:40vh;
+        animation-timing-function:ease-out;
+    }
+    75% {
+        top:35vh;
+        animation-timing-function:ease-in;
+    }
+    87% {
+        top:40vh;
+         animation-timing-function:ease-out;
+    }
+    93% {
+         top:39vh;
+         animation-timing-function:ease-in;
+    }
+    100% {
+        top:40vh;
+        animation-timing-function:ease-out;
+    }
+}
+.draggable {
+    cursor:grab;
 }
 
 .container {
@@ -16,9 +58,11 @@ body {
     display:flex;
     justify-content:space-evenly;
     align-items:center;
+    padding:30px;
 }
 .buttons {
     margin:10px;
     border:10px;
     padding:10px;
 }
+
